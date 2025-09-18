@@ -3,5 +3,7 @@
 	"rootNamespace": "Util",
 	"autoReferenced": true,
 	"noEngineReferences": false,
-	"references": []
+	"references": [
+		"UniTask"
+	]
 }

@@ -4,6 +4,7 @@
   "autoReferenced": true,
   "noEngineReferences": false,
   "references": [
-    "Hohong123.Util"
+    "Hohong123.Util",
+    "UniTask"
   ]
 }
