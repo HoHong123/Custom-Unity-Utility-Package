@@ -1,0 +1,9 @@
+{
+  "name": "Hohong123.HGame",
+  "rootNamespace": "HGame",
+  "autoReferenced": true,
+  "noEngineReferences": false,
+  "references": [
+    "Hohong123.Util"
+  ]
+}
