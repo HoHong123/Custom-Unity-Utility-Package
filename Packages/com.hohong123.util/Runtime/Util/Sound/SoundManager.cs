@@ -19,7 +19,9 @@ namespace Util.Sound {
             }
         }
 
+#if ODIN_INSPECTOR
         [Title("Meta Data")]
+#endif
         [SerializeField]
         string path = "Sounds/";
         [SerializeField]
@@ -27,19 +29,25 @@ namespace Util.Sound {
         [SerializeField]
         string bgmPath = "BGM/";
 
+#if ODIN_INSPECTOR
         [Title("Audio Mixer")]
+#endif
         [SerializeField]
         AudioMixer audioMix;
 
+#if ODIN_INSPECTOR
         [Title("Audio Sources")]
+#endif
         [SerializeField]
         AudioSource sfxAudio;
         [SerializeField]
         AudioSource bgmAudio;
 
+#if ODIN_INSPECTOR
         [Title("Sound Data Allocation")]
-        [SerializeField]
         [DictionaryDrawerSettings(KeyLabel = "Audio Code", ValueLabel = "Audio Clip")]
+#endif
+        [SerializeField]
         Dictionary<int, SoundItem> soundDic = new Dictionary<int, SoundItem>();
 
 
