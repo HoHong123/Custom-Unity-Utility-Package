@@ -6,21 +6,14 @@
  */
 #endif
 
-#if ODIN_INSPCETOR
-using Sirenix.OdinInspector;
-#else
 using System.Collections.Generic;
 using UnityEngine;
+using Util.OdinCompat;
 
 namespace Util.Pooling {
     public class UnityPoolConnector : MonoBehaviour {
-#if ODIN_INSPECTOR
-        [Title("Entities")]
-        [InfoBox("Must use 'IPoolable' prefab", InfoMessageType.Warning)]
-#else
-        [Header("Entities")]
+        [HeaderToTitle("Entities")]
         [Tooltip("Must use 'IPoolable' prefab")]
-#endif
         [SerializeField]
         List<UnityPoolEntity> poolEntity = new();
 
