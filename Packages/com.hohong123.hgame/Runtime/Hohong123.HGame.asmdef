@@ -5,6 +5,7 @@
   "noEngineReferences": false,
   "references": [
     "Hohong123.Util",
-    "UniTask"
+    "UniTask",
+    "Unity.TextMeshPro"
   ]
 }

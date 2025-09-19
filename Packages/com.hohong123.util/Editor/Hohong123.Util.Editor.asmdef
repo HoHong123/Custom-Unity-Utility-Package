@@ -6,6 +6,8 @@
   ],
   "autoReferenced": true,
   "references": [
-    "Hohong123.Util"
+    "Hohong123.Util",
+    "Unity.TextMeshPro",
+    "Unity.TextMeshPro.Editor"
   ]
 }
