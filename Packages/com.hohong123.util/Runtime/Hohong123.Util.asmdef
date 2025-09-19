@@ -4,6 +4,7 @@
 	"autoReferenced": true,
 	"noEngineReferences": false,
 	"references": [
-		"UniTask"
+		"UniTask",
+		"Unity.TextMeshPro"
 	]
 }
